@@ -22,6 +22,6 @@ public class HelloWorldResource {
 	@GET
 	@Path("cdi")
 	public String cdi() {
-		return "Hello CDI !";
+		return test.message() + " " + message();
 	}
 }

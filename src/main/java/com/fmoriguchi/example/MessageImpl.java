@@ -10,6 +10,6 @@ import javax.inject.Named;
 public class MessageImpl implements Message {
 
 	public String message() {
-		return "Hello CDI!";
+		return "Hello CDI !";
 	}
 }
