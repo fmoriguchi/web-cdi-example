@@ -1,10 +1,7 @@
-/**
- * 
- */
-package com.fmoriguchi.test;
+package com.fmoriguchi.example;
 
 /**
- * @author japa
+ * @author fmoriguchi
  *
  */
 public interface Message {

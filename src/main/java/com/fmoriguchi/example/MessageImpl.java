@@ -1,16 +1,13 @@
-/**
- * 
- */
-package com.fmoriguchi.test;
+package com.fmoriguchi.example;
 
 import javax.inject.Named;
 
 /**
- * @author japa
+ * @author fmoriguchi
  *
  */
 @Named
-public class TestMessage implements Message {
+public class MessageImpl implements Message {
 
 	public String message() {
 		return "Hello CDI!";

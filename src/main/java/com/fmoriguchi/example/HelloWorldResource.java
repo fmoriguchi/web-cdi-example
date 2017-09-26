@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.fmoriguchi.test;
+package com.fmoriguchi.example;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
@@ -15,18 +12,16 @@ import javax.ws.rs.Path;
 public class HelloWorldResource {
 
 	@Inject
-	TestMessage message;
-	
+	Message test;
+
 	@GET
 	public String message() {
-		
 		return "Hello REST !";
 	}
-	
+
 	@GET
 	@Path("cdi")
 	public String cdi() {
-		
 		return "Hello CDI !";
 	}
 }
